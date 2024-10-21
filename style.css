@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email </title>
-    <link href="style.css" >
-</head>
-<body>
-   <!-- <img src="./git.avif" alt="" >-->
-   
-     
-    <style>
+<style>
        * {
          margin: 0;
          padding: 0;
@@ -121,64 +109,3 @@
          line-height: 1.6;
        }
      </style>
-   </head>
-   <body>
-   
-     <div class="container">
-       <!-- Sidebar -->
-       <div class="sidebar">
-         <h3>Alicia Koch</h3>
-         <ul>
-           <li>Inbox</li>
-           <li>Drafts</li>
-           <li>Sent</li>
-           <li>Junk</li>
-           <li>Trash</li>
-           <li>Archive</li>
-         </ul>
-       </div>
-   
-       <!-- Email List -->
-       <div class="email-list">
-         <div class="email-item">
-           <p><strong>William Smith</strong> - Meeting Tomorrow</p>
-           <p>12 months ago</p>
-           <div class="tags">
-             <span>meeting</span>
-             <span>work</span>
-             <span>important</span>
-           </div>
-         </div>
-         <div class="email-item">
-           <p><strong>Alice Smith</strong> - Re: Project Update</p>
-           <p>12 months ago</p>
-           <div class="tags">
-             <span>work</span>
-             <span>important</span>
-           </div>
-         </div>
-         <div class="email-item">
-           <p><strong>Bob Johnson</strong> - Weekend Plans</p>
-           <p>1 year ago</p>
-         </div>
-       </div>
-   
-       <!-- Email Detail View -->
-       <div class="email-detail">
-         <div class="email-header">
-           <h2>Meeting Tomorrow</h2>
-           <p>From: william@example.com</p>
-           <p>Date: Oct 22, 2023, 9:00 AM</p>
-         </div>
-         <div class="email-body">
-           <p>Hi, let's have a meeting tomorrow to discuss the project. I've been reviewing the project details and have some ideas I'd like to share. It's crucial that we align on our next steps to ensure the project's success.</p>
-           <p>Please come prepared with any questions or insights you may have. Looking forward to our meeting!</p>
-           <p>Best regards,<br>William</p>
-         </div>
-       </div>
-     </div>
-   
-   
-   
-</body>
-</html>
