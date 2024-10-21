@@ -27,13 +27,13 @@
          height: 100vh;
        }
    
+       
        .sidebar {
          width: 20%;
          background-color: #f7f7f7;
          padding: 20px;
          border-right: 1px solid #ddd;
        }
-   
        .sidebar h3 {
          margin-bottom: 20px;
          font-size: 18px;
@@ -120,6 +120,11 @@
          font-size: 16px;
          line-height: 1.6;
        }
+       .textclass{
+        bottom: 0%;
+        position: relative;
+        height: fit-content;
+       }
      </style>
    </head>
    <body>
@@ -135,6 +140,13 @@
            <li>Junk</li>
            <li>Trash</li>
            <li>Archive</li>
+           <li>Social</li>
+           <li>Updates</li>
+           <li>ForumsShopping</li>
+           <li>Promotions</li>
+          
+
+
          </ul>
        </div>
    
@@ -145,7 +157,7 @@
            <p>12 months ago</p>
            <div class="tags">
              <span>meeting</span>
-             <span>work</span>
+             <span fill="block">work </span>
              <span>important</span>
            </div>
          </div>
@@ -174,6 +186,8 @@
            <p>Hi, let's have a meeting tomorrow to discuss the project. I've been reviewing the project details and have some ideas I'd like to share. It's crucial that we align on our next steps to ensure the project's success.</p>
            <p>Please come prepared with any questions or insights you may have. Looking forward to our meeting!</p>
            <p>Best regards,<br>William</p>
+           <input type="textarea"  class="textclass" width=" 400" placeholder="Reply William Smith" 
+           >
          </div>
        </div>
      </div>
